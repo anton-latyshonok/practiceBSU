@@ -1,0 +1,11 @@
+commit 97eed70ab8c99f1781061eb81dff3c060f9c1ff0
+Author: Anton <latyshonok.antoxa@gmail.com>
+Date:   Tue Feb 11 10:31:44 2020 +0300
+
+    init
+
+commit e4e377da4ee9d939f29ea84c05b411fadb119bc8
+Author: Anton <latyshonok.antoxa@gmail.com>
+Date:   Tue Feb 11 10:30:15 2020 +0300
+
+    add .gitignore
