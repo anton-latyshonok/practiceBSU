@@ -1,2 +1,1 @@
-# practiceBSU
-Twitter-clone
+# Twitter-clone
