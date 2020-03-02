@@ -8,63 +8,148 @@
 
 <body>
     <header id="main-header">
-        <div class="content">
-          <img src="images/twitter.png" alt="Logo Twitter">
+      <div class="content">
+        <img src="images/twitter.svg" alt="Logo Twitter">
           
-            <nav>
-                <ul>
-                    <li>
-                      <img src="images/picture-twitter.png" alt=""></li>
-                    <li> 
-                      Anton Latyshonak</li>  
-                    <li> 
-                      Main page</li>
-                    <li>
-                      Settings</li>
-                    <li>
-                      Notifications</li>
-                    <li>
-                      Messages</li>
-                    <li>
-                      Exit</li>
-
-              
-                </ul>
+          <nav>
+            <ul>
+              <li>
+                <img src="images/picture-twitter.png" alt=""></li>
+              <li> 
+                Anton Latyshonak</li>  
+              <li> 
+                Main page</li>
+              <li>
+                Settings</li>
+              <li>
+                  Notifications</li>
+              <li>
+                Messages</li>
+              <li>
+                Exit</li>
+              </ul>
             </nav>
+
             <div class="side">
-                <input type="text" placeholder="Search on Twitter">
-                <button>))))</button>
+              <input type="text" placeholder="Search on Twitter">
+              <button>Add Post</button>
             </div>
         </div>
     </header>
-    <main id="posts">
-      <ul>
-        <li class="posts_feed"> 1 tweet</li>
-        <li class="posts_feed"> 2 tweet</li>
 
-        <!--<div class="posts_feed">-->
-        <ul class="posts_feed">
-          <li>
-            <img src="images/picture-twitter.png" alt=""></li>
-          <li> 
-            Anton Latyshonak</li>  
-          <!--</div>-->
-        
-      </ul>
-      </ul>
-      <div class="filter">filter
+    <main id="posts">
+      <!--<div class="filter">filter
           
+      </div>-->
+      <div class="filter">
+          <details class = "clickable">
+              <summary>
+                filter
+              </summary>
+              <ul>
+                <li>
+                <input type="checkbox" name="author" class = "clickable">
+                <label for="author">author</label>
+                <input type="text" size=flex>
+              </li>
+    
+              <li>
+                <input type="checkbox" name="date" class = "clickable">
+                <label for="date">date</label>
+                <input type="date" size=flex>
+              </li>
+              <li>
+                <input type="checkbox" name="hashtag" class = "clickable">
+                <label for="hashtag">hashtag</label>
+                <input type="text" size=flex>
+              </li>
+            </ul>
+            <div class="search">
+              <input type="button" onclick="alert('filtering')" value="filter" class = "clickable">
+            </div>
+            
+          </details>
+        </div>
+      </div>
+      <!-- Каждый поста должен содержать фото, имя автора, дату и время добавления, краткое описание, список хештегов и кнопку "Поставить лайк", редактирование и удаление поста
+      после нажатия удаления - подтверждение удаления-->
+        <div class="posts_feed">
+          
+        <img src="images/picture-twitter.png" alt="">
+    
+        <b>Anton Latyshonak</b><br>
+      
+        </div>
+        <div class="posts_feed"> 2 tweet</div>
+        <div class="posts_feed"> 3 tweet</div>
+        <div class="posts_feed"> 4 tweet</div>
+        <div class="posts_feed"> 5 tweet</div>
+        <div class="posts_feed"> 6 tweet</div>
+        <div class="posts_feed"> 7 tweet</div>
+        <div class="posts_feed"> 8 tweet</div>
+        <div class="posts_feed"> 9 tweet</div>
+        <div class="posts_feed"> 10 tweet</div>
+        <!--<div class="tweet">
+          <div class="content">
+            <img class="avatar" src="img/jennyshen.jpg" />
+            <strong class="fullname">Harvard Biz Review</strong>
+            <span class="username">@HarvardBiz</span>
+            <p class="tweet-text">It is possible to work with a loved one without ruining the relationship http://s.hbr.org/15FDIri </p>
+            <div class="tweet-actions">
+              <ul>
+                <li><span class="icon action-reply"></span> Reply</li>
+                <li><span class="icon action-retweet"></span> Retweet</li>
+                <li><span class="icon action-favorite"></span> Favorite</li>
+                <li><span class="icon action-more"></span> More</li>
+              </ul>
+            </div>
+            <div class="stats">
+              <div class="retweets">
+                <p class="num-retweets">30</p>
+                <p>RETWEETS</p>
+              </div>
+              <div class="favorites">
+                <p class="num-favorites">6</p>
+                <p>FAVORITES</p>
+              </div>
+              <div class="users-interact">
+                <div>
+                  <img src="img/vklimenko.jpg" />
+                  <img src="img/funwatercat.jpg" />
+                </div>
+              </div>
+              <div class="time">
+                1:04 PM - 19 Sep 13
+              </div>
+            </div>
+            <div class="reply">
+              <img class="avatar" src="img/alagoon.jpg" />
+              <textarea class="tweet-compose" placeholder="Reply to @HarvardBiz"/></textarea>
+            </div>
+          </div>
+        </div>-->
+        <!--<div class="posts_feed">-->
+
+      <div class="load_more">
+        <b>
+          <a style="color:#033076;" class = "clickable">
+          Load More
+          </a>
+        </b>
       </div>
     </main> 
     </div>
     <footer>
+      
       <div class="alignment">
         <p>
-          All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.
+          Twitter by Anton Latyshonak, 2 course, 8 group <br>
+          <a href="mailto:antonlatyshonok@gmail.com" class = "clickable">
+            antonlatyshonok@gmail.com</a>
+          <p>last change: 02.03.2020</p>
         </p>
+    
       </div>
     </footer>
-  
   </body>
-
 </html>
