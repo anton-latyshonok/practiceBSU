@@ -1,4 +1,4 @@
 # Twitter-clone
 
 
-please add flows of 2-3 lab
+please add flaws of 2-3 lab to issue
