@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+      <div class="content">
+        <img src="images/twitter.svg" alt="Logo Twitter">
+          
+          <nav>
+            <ul>
+              <li>
+                <img src="images/picture-twitter.png" alt=""></li>
+              <li> 
+                Anton Latyshonak</li>  
+              <li> 
+                Main page</li>
+              <li>
+                Settings</li>
+              <li>
+                  Notifications</li>
+              <li>
+                Messages</li>
+              <li>
+                Exit</li>
+              </ul>
+            </nav>
+
+            <div class="side">
+              <input type="text" placeholder="Search on Twitter">
+              <button>Add Post</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="posts">
+      <!--<div class="filter">filter
+          
+      </div>-->
+      <div class="filter">
+          <details class = "clickable">
+              <summary>
+                filter
+              </summary>
+              <ul>
+                <li>
+                <input type="checkbox" name="author" class = "clickable">
+                <label for="author">author</label>
+                <input type="text" size=flex>
+              </li>
+    
+              <li>
+                <input type="checkbox" name="date" class = "clickable">
+                <label for="date">date</label>
+                <input type="date" size=flex>
+              </li>
+              <li>
+                <input type="checkbox" name="hashtag" class = "clickable">
+                <label for="hashtag">hashtag</label>
+                <input type="text" size=flex>
+              </li>
+            </ul>
+            <div class="search">
+              <input type="button" onclick="alert('filtering')" value="filter" class = "clickable">
+            </div>
+            
+          </details>
+        </div>
+      </div>
+      <div class="posts_feed">
+        <div class="public_info">   
+        <div class="time"> 22:04:30, 29 feb 2019</div>
+          
+        <img src="images/actor.jpg" alt=""><br>
+        <b>Arseniy Mironov</b><br>
+        <span>Actor</span><br>
+        </div>
+        <p class="tweet-text">
+          WHAT A NICE DAY!
+         <br>#2020bestyear</p> 
+        </p>
+        <div class="tweet-actions">
+          <ul>
+            <li><span class="icon action-edit">Edit</span></li>
+            <li><span class="icon action-delete" onclick="alert('you sure?')">Delete </span></li>
+            <li><span class="icon action-like">Like</span></li>
+            <li><span class="icon action-dislike">Dislike</span></li>
+            <li><span class="icon action-favorite">Favorite</span></li>
+            <li><span class="icon action-more">More</span></li>
+          </ul>
+        </div>
+      
+        </div>
+        <div class="posts_feed"> 2 tweet</div>
+        <div class="posts_feed"> 3 tweet</div>
+        <div class="posts_feed"> 4 tweet</div>
+        <div class="posts_feed"> 5 tweet</div>
+        <div class="posts_feed"> 6 tweet</div>
+        <div class="posts_feed"> 7 tweet</div>
+        <div class="posts_feed"> 8 tweet</div>
+        <div class="posts_feed"> 9 tweet</div>
+        <div class="posts_feed"> 10 tweet</div>
+        
+        <!--<div class="posts_feed">-->
+
+      <div class="load_more">
+        <b>
+          <a style="color:#033076;" class = "clickable">
+          Load More
+          </a>
+        </b>
+      </div>
+    </main> 
+    </div>
+    <footer>
+      
+      <div class="alignment">
+        <p>
+          Twitter by Anton Latyshonak, 2 course, 8 group <br>
+          <a href="mailto:antonlatyshonok@gmail.com" class = "clickable">
+            antonlatyshonok@gmail.com</a>
+          <p>last change: 02.03.2020</p>
+        </p>
+    
+      </div>
+    </footer>
+  </body>
+</html>
