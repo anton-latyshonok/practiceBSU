@@ -1,32 +1,10 @@
 On branch master
-
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-	new file:   .idea/$PRODUCT_WORKSPACE_FILE$
-	new file:   .idea/.gitignore
-	new file:   .idea/misc.xml
-	new file:   .idea/modules.xml
-	new file:   .idea/vcs.xml
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	task 1.iml
-	task1/
-
-On branch master
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	task1/
-
-nothing added to commit but untracked files present (use "git add" to track)
-On branch master
-Your branch is up to date with 'origin/master'.
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-	modified:   log.txt
+	modified:   task1/status.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
