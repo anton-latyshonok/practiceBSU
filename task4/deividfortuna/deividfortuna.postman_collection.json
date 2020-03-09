@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "26492e71-f0d5-46fd-9d78-404b65072bd3",
+		"name": "deividfortuna",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "deividfortuna1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://parallelum.com.br/fipe/api/v1/carros/marcas",
+					"protocol": "https",
+					"host": [
+						"parallelum",
+						"com",
+						"br"
+					],
+					"path": [
+						"fipe",
+						"api",
+						"v1",
+						"carros",
+						"marcas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deividfortuna2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos",
+					"protocol": "https",
+					"host": [
+						"parallelum",
+						"com",
+						"br"
+					],
+					"path": [
+						"fipe",
+						"api",
+						"v1",
+						"carros",
+						"marcas",
+						"59",
+						"modelos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deividfortuna3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos/5940/anos",
+					"protocol": "https",
+					"host": [
+						"parallelum",
+						"com",
+						"br"
+					],
+					"path": [
+						"fipe",
+						"api",
+						"v1",
+						"carros",
+						"marcas",
+						"59",
+						"modelos",
+						"5940",
+						"anos"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

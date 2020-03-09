@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "7f34149a-c022-4c90-be2d-d9773b21a016",
+		"name": "newton",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "newton1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newton.now.sh/simplify/2^2+2(2)",
+					"protocol": "https",
+					"host": [
+						"newton",
+						"now",
+						"sh"
+					],
+					"path": [
+						"simplify",
+						"2^2+2(2)"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newton2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newton.now.sh/tangent/2lx^3",
+					"protocol": "https",
+					"host": [
+						"newton",
+						"now",
+						"sh"
+					],
+					"path": [
+						"tangent",
+						"2lx^3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newton3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newton.now.sh/log/2l8",
+					"protocol": "https",
+					"host": [
+						"newton",
+						"now",
+						"sh"
+					],
+					"path": [
+						"log",
+						"2l8"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
