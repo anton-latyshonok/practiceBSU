@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "1926a2a7-a412-47b5-8d44-5eb4faa728ca",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "postman",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"geolocations\" : [{\r\n\"longitude\":  0.629834723775309,\r\n\"latitude\": 51.7923246977375\r\n}, {\r\n\"longitude\": -2.49690382054704,\r\n\"latitude\": 53.5351312861402,\r\n\"radius\": 1000,\r\n\"limit\": 5\r\n}]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "api.postcodes.io/postcodes",
+					"host": [
+						"api",
+						"postcodes",
+						"io"
+					],
+					"path": [
+						"postcodes"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
