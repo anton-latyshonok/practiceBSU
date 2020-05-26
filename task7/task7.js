@@ -140,12 +140,21 @@ const posts = [
         photoLink: 'https://www.pressball.by/images/stories/2020/03/202003102315422.jpg'
     },
 ];
+let example = {
+    id: '21',
+    description: 'Description 21',
+    createdAt: new Date('2020-03-9T23:00:00'),
+    author: 'Author 21',
+    photoLink: 'https://www.pressball.by/images/stories/2020/03/202003102315422.jpg'
+ };
 
 const MAX_DESCRIPTION_LENGTH = 200;
 const DEFAULT_SKIP = 0;
 const DEFAULT_TOP = 10;
 
+
 class PostList {
+    
     
     _posts = [];
 
@@ -252,5 +261,88 @@ class PostList {
             }
         }, [])
     }
+
+
+    getPage() {
+        console.log(".....getPost testing.....");
+        console.log("\n");
+        console.log("with valid id:");
+        console.log(this.getPage('3'));
+        console.log("\n");
+        console.log("with invalid id:");
+        console.log(this.getPage(0));
+        console.log("\n");
+        console.log("\n");
+      }
+    
+      validate() {
+        console.log(".....validatePost testing.....");
+        console.log("with invalid post:");
+        console.log(PostList.validate(1));
+        console.log("\n");
+        console.log("\n");
+      }
+    
+      add() {
+        console.log(".....addPost testing.....");
+        console.log("\n");
+        console.log("with valid post:");
+        console.log(this.add(example));
+        console.log("\n");
+        console.log("with invalid post:");
+        console.log(this.add(0));
+        console.log("\n");
+        console.log("\n");
+      }
+    
+      edit() {
+        console.log(".....editPost testing.....");
+        console.log("\n");
+        console.log("with valid post and ID:");
+        console.log(this.edit("1", example));
+        console.log("\n");
+        console.log("with invalid post:");
+        console.log(this.edit("1", {description: 1441}));
+        console.log("\n");
+        console.log("with invalid ID:");
+        console.log(this.edit(0, example));
+        console.log("\n");
+        console.log("\n");
+      }
+    
+      remove() {
+        console.log(".....removePost testing.....");
+        console.log("\n");
+        console.log("with valid ID:");
+        console.log(this.remove(20));
+        console.log("\n");
+        console.log("with invalid ID:");
+        console.log(this.remove(30));
+        console.log("\n");
+        console.log("\n");
+      }
+
+    
+      addAll() {
+        console.log(".....addAll testing.....");
+        console.log("\n");
+        var testPostArray = [
+          {
+            id: '22',
+            description: 'Description 22',
+            createdAt: new Date('2020-03-9T23:00:00'),
+            author: 'Author 22',
+            photoLink: 'https://www.pressball.by/images/stories/2020/03/202003102315422.jpg'
+          },
+          {
+            id: '23',
+            description: 'Description 23',
+            createdAt: new Date('2020-03-9T23:00:00'),
+            author: 'Author 23',
+            photoLink: 'https://www.pressball.by/images/stories/2020/03/202003102315422.jpg'
+          }
+        ];
+        console.log(this.addAll(testPostArray));
+      }
     
 }
